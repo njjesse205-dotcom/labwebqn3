@@ -1,0 +1,154 @@
+
+/* General Page Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+/* University Header */
+header {
+    text-align: center;
+    padding: 15px;
+    background-color: #ffffff;
+}
+
+h1 {
+    color: #800000;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #333333;
+    margin-top: 5px;
+}
+
+/* Metadata Bar */
+.metadata {
+    background-color: #EEEEEE;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    color: #333333;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    overflow-x: auto;
+}
+
+/* Results Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-size: 14px;
+}
+
+/* Table Headers and Cells */
+th, td {
+    border: 1px solid #cccccc;
+    padding: 12px;
+    text-align: center;
+}
+
+/* Main Table Heading */
+.table-title {
+    background-color: #800000;
+    color: white;
+    font-size: 18px;
+    padding: 16px;
+}
+
+/* Column Headings */
+thead tr:nth-child(2) {
+    background-color: #333333;
+    color: white;
+}
+
+/* Alternating Row Colours */
+tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #FFF8F4;
+}
+
+/* Hover Effect */
+tbody tr:hover {
+    background-color: #FFE0D0;
+}
+
+/* Grade Colour Coding */
+.grade-a {
+    color: #008000;
+    font-weight: bold;
+}
+
+.grade-b {
+    color: #0066CC;
+    font-weight: bold;
+}
+
+.grade-c {
+    color: #CC8800;
+    font-weight: bold;
+}
+
+.grade-d {
+    color: #CC5500;
+    font-weight: bold;
+}
+
+.grade-f {
+    color: #CC0000;
+    font-weight: bold;
+}
+
+/* Table Footer */
+tfoot {
+    background-color: #EEEEEE;
+    font-weight: bold;
+}
+
+tfoot th {
+    color: #800000;
+    padding: 15px;
+}
+
+/* Page Footer */
+footer {
+    text-align: center;
+    background-color: #333333;
+    color: white;
+    padding: 12px;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+
+    table {
+        min-width: 850px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    header h2 {
+        font-size: 18px;
+    }
+}
+.logo-img {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
